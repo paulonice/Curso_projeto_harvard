@@ -1,0 +1,62 @@
+<!DOCTYPE html> <!--Declara para o navegador web que estamos escrevendo o documento na versão mais recente do HTML:HTML5-->
+<html lang="en"> <!--Define o inglês como idioma principal-->
+
+    <head>
+        <title>HTML Elements</title> <!--Exibido na parte superior da página-->
+    </head>
+
+    <body> <!--Parte visível da página do usuário-->
+        <!--Podemos criar títulos usando tags de h1 até h6-->
+        <h1>A Large Headind</h1>
+        <h2>A Smaller Heading</h2>
+        <h6>The Smallest Heading</h6>
+
+        <!--As tags strong e i nos fornecem, respectivamente, negrito e itálico-->
+        <strong>bold</strong> word and an <i>italicized</i> world!
+
+        <!--Podemos criar um link de outra página-->
+        view the <a href="https://cs50.harvard.edu/">CS50 Website</a>
+
+        <!--Usamos "ul" para listas desordenadas e "ol" para listas ordenadas, ambas contêm o elemento "li"-->
+        <ul> <!--Listas desordenadas-->
+            <li>foo</li>
+            <li>bar</li>
+            <li>baz</li>
+        </ul>
+        An onderest list:
+        <ol> <!--Listas ordenadas-->
+            <li>foo</li>
+            <li>bar</li>
+            <li>baz</li>
+        </ol>
+
+        <!--src, atributo usado para a imagem que define o caminho do arquivo no computado ou um link on-line da imagem. O atributo alt fornece uma descrição caso a imgem não seja carregada.-->
+        <img src="image/duck.jpg" alt="Rubber Duck Picture">
+        
+        <!--Usamos a tag <br/><br/> para adicionar espaço em branco à página.-->
+        <br/><br/>
+
+        <!--Tags udadas para criar uma tabela-->
+        <table> <!--Tag para abrir a tabela, contêm tudo que apresenta tabela.-->
+            <thead> <!--Seção do cabeçalho da tabela, contêm a linha ou linhas de títulos das colunas.-->
+                <tr> <!--Table row, linha de tabela, agrupa células.-->
+                    <th>Ocean</th> <!--table header, célulda de cabeçalho, são células que indicam títulos de coluna(geralmente aparecem em negritos e centralizados também).-->
+                    <th>Average Depth</th>
+                    <th>Maximum Depth</th>
+                </tr>
+            </thead>
+            <tbody> <!--Abre o corpo da tabela, onde ficam as linhas dos dados reais. Separa "thead" e "tbody" ajuda a cessibilidade e estilos(=útil para tabelas grandes)-->
+                <tr>
+                    <td>Pacific</td>
+                    <td>4280</td>
+                    <td>10911</td>
+                </tr>
+                <tr>
+                    <td>Atlantic</td>
+                    <td>3646</td>
+                    <td>8486</td>
+            </tbody>
+            </tr>
+        </table>
+    </body>
+</html>
