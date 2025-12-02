@@ -1,23 +1,20 @@
-<!DOCTYPE html> <!--Defite a versão do html-->
-<html lang="eng"> <!--Define a linguagem principal-->
-
-    <head> <!--Tag usada para definir as informaçẽos na aba do navegador-->
-    <title> Forms </title> <!--Título exibido na aba do navegador-->
-    </head> <!--Tag de fechamento-->
-
-    <body> <!--é o corpo da página, onde as informações ficam visíveis para o usuário-->
-        <form> <!--usada para criar formulários interativos-->
+<!DOCTYPE html>
+<html lang="en"> 
+    <head> 
+        <title> Forms </title> 
+    </head> 
+    <body> 
+        <form> <!--Abre um formulário interativo-->
             <input type="text" placeholder="First Name" name="first"> <!---->
             <input type="password" placeholder="Password" name="password">
-            <div>
-                Favorite Color:
-                <input type="color" type="radio" value="blue"> Blue
-                <input type="color" type="radio" value="green"> Green
-                <input type="color" type="radio" value="yellow"> yellow
-                <input type="color" type="radio" value="red"> Red 
-            </div>
+                <div>
+                    Favorite Color:
+                    <input name="color" type="radio" value="blue"> Blue
+                    <input name="color" type="radio" value="green"> Green
+                    <input name="color" type="radio" value="yellow"> yellow
+                    <input name="color" type="radio" value="red"> Red 
+                </div>
             <input type="submit">
         </form>
     </body>
-
 </html>
